@@ -1,6 +1,6 @@
 
-const GOOGLE_CLIENT_ID = "YOUR_GOOGLE_CLIENT_ID_HERE";
-const APPS_SCRIPT_URL = "YOUR_GOOGLE_APPS_SCRIPT_WEBAPP_URL_HERE";
+const GOOGLE_CLIENT_ID = "631503031767-svs2t8ebq2169ruq7n7ehq5ln8ig78qd.apps.googleusercontent.com";
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby4_Lpm5PWBQUR2flw09AK9wGqoOKcHpxiYIsR1F2zWNBrrFzzvxdW1NoFbO750Efrf/exec";
 
 function parseJwt(token) {
   const base64Url = token.split('.')[1];
